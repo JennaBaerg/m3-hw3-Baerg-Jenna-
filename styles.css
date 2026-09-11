@@ -52,7 +52,7 @@ p {
 
 nav {
     float: right;
-    margin: 40px;
+    margin: 40px auto;
 }
 
 nav a {
@@ -70,7 +70,7 @@ section, aside {
 section {
     float: left;
     width: 700px;
-    padding: 10px
+    padding: 10px;
 }
 
 section img {
@@ -82,8 +82,8 @@ section img {
 aside {
     float: right;
     width: 300px
-    padding: 0px;
-    margin: 15px 50px 0 0;
+    padding: 10px;
+    margin: 15px 0 0 0;
 }
 
 aside img {
