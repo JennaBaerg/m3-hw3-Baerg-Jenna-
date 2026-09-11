@@ -81,7 +81,7 @@ section img {
 
 aside {
     float: right;
-    width: 300px
+    width: 300px;
     padding: 10px;
     margin: 15px 0 0 0;
 }
@@ -106,7 +106,7 @@ footer {
     color: white;
     background-color: rgb(111, 53, 99);
     border-top: 3px solid rgb(202, 202, 255);
-    font-size 24px;
+    font-size: 24px;
     text-align: center;
     font-weight: bold;
     padding: 55px;
