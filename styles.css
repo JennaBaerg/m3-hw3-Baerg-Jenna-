@@ -95,7 +95,7 @@ aside a {
     text-decoration: none;
 }
 
-main .container ::after {
+main.container::after {
     content:"";
     clear:both;
     display: block;
