@@ -1,89 +1,113 @@
 
-
-header {
-    border: 1px solid rgb(129, 129, 200);
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    background-image: url(watercolor.png);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    line-height: 145%;
-    max-width: 900px;
-    margin: auto;
+    background-image: url(images/watercolor.png);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(111, 53, 99);
+    border-bottom: 3px solid rgb(202, 202, 255);
+    height: 100px;
+}
+
+main.container {
+    margin: 40px auto;
 }
 
 h1 {
-    display: block;
+    color: white;
     float: left;
+    margin-top: 32px;
+    padding: 0 0 0 10px;
     font-family: cursive;
-    font-size: 2.8em;
-    background-color: rgb(243, 213, 213);
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    margin: 45px 0;
 }
 
-a {
-    display: block;
-    float: right;
-    padding: 18px;
-    margin: 45px 0;
-    font-size: 1.3em;
-    color:rgb(129, 129, 200);
-     background-color: white;
+h2 {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(202, 202, 255);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 0;
 }
-aside {
-    display: block;
+
+section h2 {
+    font-size: 25px
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 170%;
+}
+
+nav {
     float: right;
+    margin: 40px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+section, aside {
     background-color: white;
-    padding: 5px 30px;
 }
 
-aside img {
-    float: center;
-    padding: 5px;
-    max-width: 44px;
-}
 section {
     float: left;
-    max-width: 62%;
-    padding: 20px;
-    background-color: white;
+    width: 700px;
+    padding: 10px
 }
 
 section img {
     float: left;
-    margin: 10px 14px 10px 0;
+    margin: 0 15px 15px 0;
+    filter:drop-shadow(4px 4px 4px);
 }
 
-h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    font-weight: bold;
-    font-size: 2em;
-    padding: 15px;
-    border-bottom: 2px solid rgb(129, 129, 200);
+aside {
+    float: right;
+    width: 300px
+    padding: 0px;
+    margin: 15px 50px 0 0;
 }
 
-h3 {
-    font-size: 1.3em;
-    border-bottom: 1px solid rgb(129, 129, 200);
-    padding-bottom: 5px
+aside img {
+    margin-bottom: 20px;
 }
 
-footer {
-    margin: 40px 0;
-    padding: 35px;
-    text-align: center;
-    background-color: rgb(243, 213, 213);
-    border-top: 2px solid rgb(129, 129, 200);
-    position:absolute;
+aside a {
+    margin-right: 30px;
+    text-decoration: none;
 }
 
-main ::after {
+main .container ::after {
     content:"";
     clear:both;
     display: block;
+}
+
+footer {
+    clear: both;
+    color: white;
+    background-color: rgb(111, 53, 99);
+    border-top: 3px solid rgb(202, 202, 255);
+    font-size 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 55px;
 }
