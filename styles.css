@@ -18,7 +18,7 @@ body {
 header {
     background-color: rgb(111, 53, 99);
     border-bottom: 3px solid rgb(202, 202, 255);
-    height: 100px;
+    height: 95px;
 }
 
 main.container {
@@ -84,6 +84,7 @@ aside {
     width: 300px;
     padding: 10px;
     margin: 15px 0 0 0;
+    text-decoration: none;
 }
 
 aside img {
